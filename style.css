@@ -1,0 +1,88 @@
+main {
+    height: 500px;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+.no {
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.list-group-item:hover .no {
+  color: rgb(109, 108, 108);
+}
+
+.btn{
+  width: 190px;
+  margin-left: 10px;
+}
+
+.icon {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.btn2{
+  width: 70px;
+  border-color: #428bca;
+  padding-bottom: 2px;
+}
+
+.card-img-top{
+  width: 50%;
+  height: auto;
+}
+.card-link{
+  padding-right: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.card-link svg {
+  margin-right: 5px;
+} 
+
+.card-link:hover svg.bi-suit-heart-fill {
+  fill: #dc3545;
+}
+
+.card-link:hover svg.bi-repeat {
+  fill: rgb(53, 202, 53);
+}
+
+.card-link:hover svg.bi-chat {
+  fill: rgb(0, 153, 255);
+}
+
+.card-link:hover svg.bi-bar-chart-line-fill {
+  fill: rgb(0, 153, 255);
+}
+
+.card-link:hover svg.bi-share-fill {
+  fill: rgb(0, 153, 255);
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.card-body:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.nav-item{
+  margin: 5px;
+}
+
+.dropdown-item{
+  margin: 4px;
+}

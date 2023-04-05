@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/Twitter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="tweet.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body class="p-0 m-0">
+    <section class="container-fluid m-0 p-0">
+      <!-- navbar -->
+    <nav class="navbar" style="background-color: #FFFFFF;">
+        <div class="container-fluid">
+      <!-- offcanvas -->
+    <button class="navbar-toggler" style="border: 0;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#428bca" class="bi bi-twitter" viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+      </svg></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Account Info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <div class="list-group-item list-group-item-action list-group-item-light">
+              <div class="row align-items-center m-0" style="padding: 0;">
+                <div class="col-auto p-0 m-0">
+                  <img src="ky.jpg" alt="icon" class="rounded-circle mr-3 icon">
+                </div>
+                <div class="col pl-0">
+                  <p class="mb-0" style="font-weight: bold;">
+                  Kylie Jenner 
+                </p>
+                  <small class="text-body-secondary">@KingKylie</small>
+                </div>
+                <p class="mb-0 p-0 m-2" style="word-spacing: 2px;">
+                  <span style="font-weight: bold;">5.6B</span> followers <span style="font-weight: bold;">20</span> Following
+                </p>
+              </div>
+          </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bookmark</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Twitter Circle</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Settings and support
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Settings and Privacy</a></li>
+              <li><a class="dropdown-item" href="#">Helpcenter</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Log out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+     <!-- end of offcanvas -->
+       <h1 class="text-center fs-4 font">Home</h1>
+          <form class="d-none d-md-flex" role="search">
+            <input class="form-control me-1 rounded-pill" type="search" placeholder="Search for Twitter" aria-label="Search" style="width: 300px;">  
+          </form>
+        </div>
+      </nav>
+    </section>
+    <main class="row p-0">
+      <!-- Left aside -->
+        <asideL class="d-none d-md-block border col-md-2 p-0">
+          <div class="list-group p-0 m-0 rounded">
+      <a href="#" class="list-group-item list-group-item-action" style="font-size: large; display: flex; align-items: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+        <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707L7.293 1.5Z"/>
+        <path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9.293Zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018Z"/>
+        </svg>
+        <span class="no">Home</span>
+      </a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light" style="font-size: large; display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-hash" viewBox="0 0 16 16">
+              <path d="M8.39 12.648a1.32 1.32 0 0 0-.015.18c0 .305.21.508.5.508.266 0 .492-.172.555-.477l.554-2.703h1.204c.421 0 .617-.234.617-.547 0-.312-.188-.53-.617-.53h-.985l.516-2.524h1.265c.43 0 .618-.227.618-.547 0-.313-.188-.524-.618-.524h-1.046l.476-2.304a1.06 1.06 0 0 0 .016-.164.51.51 0 0 0-.516-.516.54.54 0 0 0-.539.43l-.523 2.554H7.617l.477-2.304c.008-.04.015-.118.015-.164a.512.512 0 0 0-.523-.516.539.539 0 0 0-.531.43L6.53 5.484H5.414c-.43 0-.617.22-.617.532 0 .312.187.539.617.539h.906l-.515 2.523H4.609c-.421 0-.609.219-.609.531 0 .313.188.547.61.547h.976l-.516 2.492c-.008.04-.015.125-.015.18 0 .305.21.508.5.508.265 0 .492-.172.554-.477l.555-2.703h2.242l-.515 2.492zm-1-6.109h2.266l-.515 2.563H6.859l.532-2.563z"/>
+            </svg>
+            <span class="no">Explore</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light" style="font-size: large; display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+            </svg>
+            <span class="no">Notification</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light" style="font-size: large; display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
+              <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+            </svg>
+            <span class="no">Messages</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light" style="font-size: large; display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg>
+            <span class="no">Profile</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-light" style="font-size: large; display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+            <span class="no">More</span> 
+          </a>
+          </div>
+          <div class="d-grid gap-2 col-6 p-2" style="display: flex;">
+            <button class="btn btn-primary rounded-pill" type="button" style="background-color: #428bca;">Tweet</button>
+          </div>
+           <!-- Profile -->
+          <div class="list-group-item list-group-item-action list-group-item-light">
+            <div class="row align-items-center m-1" style="padding: 20px;">
+              <div class="col-auto p-0 m-0" style="align-self: start;">
+                <img src="ky.jpg" alt="icon" class="rounded-circle mr-2 icon">
+              </div>
+              <div class="col pl-0">
+                <p class="mb-0" style="font-weight: bold;">
+                Kylie Jenner 
+              </p>
+                <small class="text-body-secondary">@KingKylie</small>
+              </div>
+            </div>
+        </div>
+          <!-- Profile -->
+        </asideL>
+        <!-- Main content -->
+     <section class="border col-md-7 m-0 p-0 overflow-hidden">
+      <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">For you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Following</a>
+        </li>
+      </ul>
+      <div class="form-floating m-1 justify-content-md-end">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">What's on your mind?</label>
+        <button type="button" class="btn m-2 ms-auto rounded-pill" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; background-color: #428bca; color: #FFFFFF; display: inline-table;">tweet</button>
+      </div>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action list-group-item-light" style="text-align: center; color: #428bca;">Show 152 tweets</a>
+        <div class="card w-100 m-0">
+        <!-- first tweet -->
+          <div class="card-body">
+            <img src="san.jpg" alt="Avatar" class="avatar float-start me-3">
+            <h7 class="card-title">why you should have a cat
+              <small class="text-body-secondary">@catlover</small></h7>
+            <p class="card-text">The perfect account to show to your parents when you want a cat 😺❤</p>
+            <a href="#" class="card-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="rgb(83, 100, 113)" class="bi bi-chat" viewBox="0 0 16 16">
+                <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+              </svg>40</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-repeat" viewBox="0 0 16 16">
+              <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+            </svg>25k</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+              <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+            </svg>1000</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+              <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+            </svg>25k</a>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="card w-100">
+          <!-- second tweet -->
+          <div class="card-body">
+            <img src="ha.jpg" alt="Avatar" class="avatar float-start me-3">
+            <h7 class="card-title">Love Quinn 
+              <small class="text-body-secondary">@lovedovey</small></h7>
+            <p class="card-text">the smell of coffee hits different.</p>
+            <a href="#" class="card-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="rgb(83, 100, 113)" class="bi bi-chat" viewBox="0 0 16 16">
+                <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+              </svg>50</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-repeat" viewBox="0 0 16 16">
+              <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+            </svg>6k</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+              <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+            </svg>500</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+              <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+            </svg>2000</a>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="card w-100">
+          <!-- third tweet -->
+          <div class="card-body">
+            <img src="ge.jpg" alt="Avatar" class="avatar float-start me-3">
+            <h7 class="card-title">Barbie but pinoy
+              <small class="text-body-secondary">@barbiefilo</small></h7>
+            <p class="card-text">Bakasyon na finally! dsurv</p>
+            <a href="#" class="card-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="rgb(83, 100, 113)" class="bi bi-chat" viewBox="0 0 16 16">
+                <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+              </svg>20</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-repeat" viewBox="0 0 16 16">
+              <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+            </svg>80k</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+              <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+            </svg>1092</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+              <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+            </svg>2562</a>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="card w-100">
+          <div class="card-body">
+            <img src="what.jpg" alt="Avatar" class="avatar float-start me-3">
+            <h7 class="card-title">Angelica torrejos
+              <small class="text-body-secondary">@angelicaTorrejos</small></h7>
+            <p class="card-text">Thank you, Bugs! <span style="color: #3b88cc;">@filanmigs</span></p>
+            <img src="try.jfif" class="card-img-top" alt="picture" style="padding-bottom: 5px;">
+            <a href="#" class="card-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="rgb(83, 100, 113)" class="bi bi-chat" viewBox="0 0 16 16">
+                <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+              </svg>60</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-repeat" viewBox="0 0 16 16">
+              <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+            </svg>2326</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+              <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+            </svg>10k</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+              <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+            </svg>2.6k</a>
+          </div>
+        </div>
+        <!-- fourth tweet -->
+        <div class="card w-100">
+          <div class="card-body">
+            <img src="wow.jpg" alt="Avatar" class="avatar float-start me-3">
+            <h7 class="card-title">Aleya Bagabaldo
+              <small class="text-body-secondary">@aleyamarie</small></h7>
+            <p class="card-text">it’s the little things that matter</p>
+            <a href="#" class="card-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="rgb(83, 100, 113)" class="bi bi-chat" viewBox="0 0 16 16">
+                <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+              </svg>45</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-repeat" viewBox="0 0 16 16">
+              <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+            </svg>2.2k</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+              <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+            </svg>1902</a>
+            <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+              <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+            </svg>1.19k</a>
+          </div>
+        </div>
+        <!-- end -->   
+        <!-- last tweet -->
+        <div class="card w-100">
+        <div class="card-body">
+          <img src="j.jpg" alt="Avatar" class="avatar float-start me-3">
+          <h7 class="card-title">jl
+            <small class="text-body-secondary">@Kael</small></h7>
+          <p class="card-text">I'm so pogi, i know 2x</p>
+          <a href="#" class="card-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="rgb(83, 100, 113)" class="bi bi-chat" viewBox="0 0 16 16">
+              <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+            </svg>50</a>
+          <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-repeat" viewBox="0 0 16 16">
+            <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+          </svg>90k</a>
+          <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+            <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+          </svg>8.6k</a>
+          <a href="#" class="card-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(83, 100, 113)" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+            <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+          </svg>19k</a>
+        </div>
+      </div>
+      <!-- end -->
+    </section>
+         <aside class="d-none d-md-block border col-md-3 p-0"> 
+          <div class="list-group m-0 p-0">
+            <h3 href="#" class="list-group-item list-group-item-action" style="font-weight: bold;">Trends For you</h3>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+              <div class="d-flex w-100 justify-content-between">
+                <small class="text-body-secondary">Fashion & beauty · Trending</small>
+              </div>
+              <p class="mb-0" style="font-weight: bold;">Mother is Mothering</p>
+              <small class="text-body-secondary">1,525 tweets</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+              <div class="d-flex w-100 justify-content-between">
+                <small class="text-body-secondary">Trending in the Philippines</small>
+              </div>
+              <p class="mb-0" style="font-weight: bold;">Academic Freeze</p>
+              <small class="text-body-secondary">1.5m tweets</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+              <div class="d-flex w-100 justify-content-between">
+                <small class="text-body-secondary">Celebrities · Trending</small>
+              </div>
+              <p class="mb-0" style="font-weight: bold;">#SoraldLoveteam</p>
+              <small class="text-body-secondary">3.5B tweets</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+              <div class="d-flex w-100 justify-content-between">
+                <small class="text-body-secondary">Celebrities · Trending</small>
+              </div>
+              <p class="mb-0" style="font-weight: bold;">Donna With Mother Support</p>
+              <small class="text-body-secondary">10.5M tweets</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+              <div class="d-flex w-100 justify-content-between">
+                <small class="text-body-secondary">Celebrities · Trending</small>
+              </div>
+              <p class="mb-0" style="font-weight: bold;">UNBEATABLE COUPLE ON IG</p>
+              <small class="text-body-secondary">18.5M tweets</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+              <div class="d-flex w-100 justify-content-between">
+                <small class="text-body-secondary">Music · Trending</small>
+              </div>
+              <p class="mb-0" style="font-weight: bold;">Mo Uli nako by Angelica</p>
+              <small class="text-body-secondary">16.5M tweets</small>
+          </div>
+          <div class="list-group m-0 p-2">
+            <h3 href="#" class="list-group-item list-group-item-action" style="font-weight: bold;">Who to follow</h3>
+            <div class="list-group-item list-group-item-action list-group-item-light">
+                <div class="list-group-item list-group-item-action list-group-item-light">
+                  <div class="row align-items-center">
+                    <div class="col-auto p-0 m-0">
+                      <img src="avatar.png" alt="Avatar" class="avatar">
+                    </div>
+                    <div class="col pl-0">
+                      <p class="mb-0" style="font-weight: bold;">
+                      Aleya Marie 
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+                    </p>
+                      <small class="text-body-secondary">@aleyamarie</small>
+                      <div class="col-auto p-0 m-0">
+                        <button class="btn2 btn-sm rounded-pill p-1" style="background-color: #428bca; color: #FFFFFF;">Follow</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <div class="list-group-item list-group-item-action list-group-item-light">
+              <div class="row align-items-center">
+                <div class="col-auto p-0 m-0">
+                  <img src="kinsa.jpg" alt="Avatar" class="avatar">
+                </div>
+                <div class="col pl-0">
+                  <p class="mb-0" style="font-weight: bold;">
+                  Bisag kinsa 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+                </p>
+                  <small class="text-body-secondary">@Bisagkinsa</small>
+                  <div class="col-auto p-0 m-0">
+                    <button class="btn2 btn-sm rounded-pill p-1" style="background-color: #428bca; color: #FFFFFF;">Follow</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+         </aside>
+         <p class="placeholder-glow p-0 m-0" style="border: none;">
+          <span class="placeholder col-12"></span>
+        </p>
+    </main>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</body>
+</html>
+
